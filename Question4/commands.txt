@@ -1,0 +1,10 @@
+uptime -p
+ps -u coder
+ps -u coder -o pid,pcpu,comm --sort=-pcpu | head -n 2
+sleep 300 & jobs
+renice -n 10 -p 5678
+free -h
+df -h /home/coder
+echo $SHELL
+uname -a > system_report.txt
+ncdu /home/coder
