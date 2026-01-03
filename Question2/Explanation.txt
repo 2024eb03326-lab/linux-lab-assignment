@@ -1,0 +1,19 @@
+Creates the directory named documents in your home folder.
+
+Navigates into the directory and creates an empty file named plan.txt.
+
+Writes the sample text into the plan.txt file.
+
+Displays file permissions, owner (username), and modification date.
+
+Creates a duplicate of the file named plan_copy.txt.
+
+Moves to the home directory and renames the folder to project_documents.
+
+Creates a subdirectory named archive inside project_documents.
+
+Lists all files and folders inside the directory and its subdirectories.
+
+Displays the full absolute path of the moved file.
+
+Moves the copied file into the new archive subdirectory.
