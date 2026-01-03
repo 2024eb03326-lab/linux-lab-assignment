@@ -1,0 +1,10 @@
+(No output returned on success)
+(No output returned on success)
+(No output returned on success)
+12345 sample_data.txt 12345 sample_hard.txt 67890 sample_soft.txt
+Hard links share inodes; Soft links do not
+-rw-r--r-- 2 coder coder 19 Jan 3 10:15 /home/coder/sample_data.txt
+8.9M /home/coder/
+total 30K ... -rw-r--r-- 1 coder coder 19B Jan 3 10:15 sample_data.txt
+-rw-r--r-- 2 coder coder 19 Jan 3 11:51 /home/coder/sample_data.txt
+Filesystem Size Used Avail Use% Mounted on ... 4.0K sample_data.txt
