@@ -1,0 +1,10 @@
+Creates the file with sample text in the home directory.
+Creates a hard link; both filenames point to the exact same data on the disk.
+Creates a soft link that acts as a shortcut pointing to the original file path.
+Lists the inode numbers; note the hard link shares the inode, the soft link does not.
+sample_data.txt and sample_hard.txt share inode 12345 because they are the same file.
+Shows permissions, owner (coder), link count (2), size, and time.
+Displays the total estimated file space usage of the home directory in human-readable format.
+Lists all files in the directory with their individual sizes in human-readable units (KB, MB).
+Removes the soft link and confirms the original file still exists.
+df shows filesystem disk space usage; du estimates space used by specific files/directories.
