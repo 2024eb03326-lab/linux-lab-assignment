@@ -1,0 +1,19 @@
+echo "Initial data entry" > /home/coder/sample_data.txt
+
+ln /home/coder/sample_data.txt /home/coder/sample_hard.txt
+
+ln -s /home/coder/sample_data.txt /home/coder/sample_soft.txt
+
+ls -i /home/coder/sample_data.txt /home/coder/sample_hard.txt /home/coder/sample_soft.txt 
+
+echo "Hard links share inodes; Soft links do not"
+
+ls -l /home/coder/sample_data.txt
+
+du -sh /home/coder/
+
+ls -lh /home/coder/
+
+rm /home/coder/sample_soft.txt && ls -l /home/coder/sample_data.txt
+
+df -h /home/coder/ && du -h /home/coder/sample_data.txt
