@@ -1,1 +1,19 @@
+User Identity Verification: The id command was used to confirm that the current user is "coder" and to list the associated group memberships for permission verification.
 
+Workspace Validation: The pwd command confirmed the current path is /home/coder, while ls -l provided a detailed view of file permissions and ownership in that directory.
+
+Environment Confirmation File: The echo command was used to redirect the text "Linux user environment verified" into a new file named user_info.txt.
+
+File Integrity Check: The wc -c (word count) command counted the specific number of bytes (characters) in user_info.txt to verify the data was written correctly.
+
+Learning the Tools: The man mkdir command opened the manual, where the -p flag was identified as a way to create entire directory trees (parents) without errors if they already exist.
+
+Home Directory Inspection: The ls command was run without arguments (or with sort options) to display the contents of the home directory in default alphabetical order.
+
+Log Investigation: The grep command filtered log.txt to find and print only the specific lines containing the keyword "admin".
+
+System Information Check: The uname -r command was executed to output the specific release number of the Linux kernel currently loaded in memory.
+
+Network Connectivity Test: The ping command sent ICMP packets to Google's server to verify that the machine can reach external networks and receive a response.
+
+System Health Awareness: The uptime command provided a quick summary of how long the system has been running, how many users are logged in, and the system load average.
