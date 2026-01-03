@@ -1,0 +1,10 @@
+(No output returned on success)
+(No output returned on success)
+(No output returned on success)
+-rw-r--r-- 1 coder coder 30 Jan 3 10:29 plan.txt
+(No output returned on success)
+(No output returned on success)
+(No output returned on success)
+(No output returned on success)
+archive plan.txt ./archive: plan.txt
+/home/coder/project_documents/archive/plan_copy.txt
