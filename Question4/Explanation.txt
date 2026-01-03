@@ -1,0 +1,10 @@
+Displays the amount of time the system has been running since the last reboot.
+Lists all active processes currently owned and run by the user 'coder'.
+Sorts user processes by CPU usage and displays the top consumer.
+Starts a sleep command in the background and lists current background jobs.
+Increases the "niceness" value, lowering the process's scheduling priority.
+Shows total, used, and free RAM in human-readable units (GiB/MiB).
+Reports disk space usage for the partition containing the home directory.
+Prints the path of the current login shell.
+Saves the system kernel information directly into a text file.
+Opens an interactive, text-based disk usage analyzer for navigating folder sizes.
