@@ -1,0 +1,10 @@
+up 2 weeks, 3 days, 19 hours, 17 minutes
+PID TTY TIME CMD 1234 ? 00:00:00 bash 1235 ? 00:00:01 sleep
+PID %CPU COMMAND 4567 12.5 python3
+[1] 5678 [1]+ Running sleep 300 &
+5678 (process ID) old priority 0, new priority 10
+Mem: 7.7Gi total, 2.1Gi used, 4.3Gi free
+Filesystem Size Used Avail Use% Mounted on /dev/sda1 100G 20G 80G 20% /
+/bin/bash
+(No output returned on success)
+[Interactive ncurses interface displaying directory sizes sorted by size]
